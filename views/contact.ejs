@@ -1,0 +1,33 @@
+<!-- contact.ejs , syed omer ahmed , 301286227 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <header><%- include('partials/_nav') %></header>
+
+    <main>
+      <h1>Contact Me</h1>
+
+      <div class="contact-info">
+        <p>Email: omairahmed7868@gmail.com</p>
+        <p>Phone: +14372562383</p>
+        <p>Address: 4-milepost place, East York, ON</p>
+      </div>
+
+      <form action="/submit" method="POST">
+        <input type="text" name="firstName" placeholder="First Name" />
+        <input type="text" name="lastName" placeholder="Last Name" />
+        <input type="tel" name="contactNumber" placeholder="Contact Number" />
+        <input type="email" name="email" placeholder="Email Address" />
+        <textarea name="message" placeholder="Message"></textarea>
+        <center><button type="submit">Submit</button></center>
+      </form>
+    </main>
+
+    <footer><p>&copy; 2023 Syed Omer Ahmed. All rights reserved.</p></footer>
+  </body>
+</html>
