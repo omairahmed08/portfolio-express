@@ -1,4 +1,4 @@
-//  index.js , syed omer ahmed , 301286227
+//  app.js , syed omer ahmed , 301286227
 
 const express = require("express");
 const app = express();
